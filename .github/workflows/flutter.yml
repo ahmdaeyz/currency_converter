@@ -15,11 +15,12 @@ jobs:
 
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.7.7'
+          flutter-version: '3.7.11'
           channel: 'stable'
 
       - name: Install dependencies
         run: flutter pub get
-
+      - name: Install Realm
+        run: flutter pub run realm install
       - name: Run tests
         run: flutter test .
