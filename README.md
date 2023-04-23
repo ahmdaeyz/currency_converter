@@ -1,6 +1,6 @@
 # currency_converter
 
-![Coverage](./coverage_badge.svg?sanitize=true)
+![Coverage](./coverage_badge.svg)
 
 #### A cross platform app using the flutter framework that utilizes the freeecurrencyapi to display available currencies, convert between them, and display last 7 days historical data.
 
